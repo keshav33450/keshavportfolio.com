@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  background-image: url(/images/pexels-umkreisel-app-956999.jpg);
+  background-size: cover;
+}
+header {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #dc2606;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+nav a {
+  color: #ffffff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #dc2606;
+}
+section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #dc2606;
+  border-bottom: 2px solid #FFD700;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.project {
+  background-color: #1f1f1f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project a {
+  color: #FFD700;
+  text-decoration: underline;
+  font-weight: 500;
+}
+#contact a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #333;
+}
